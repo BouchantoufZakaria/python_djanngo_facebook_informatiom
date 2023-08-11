@@ -7,7 +7,7 @@
     }],
     "routes" : [
         {
-            "src" : "/(.*)",
+            "src" : "helloworld/views.py",
             "dest": "helloworld/wsgi.py"
         }
     ]
