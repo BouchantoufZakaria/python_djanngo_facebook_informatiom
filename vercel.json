@@ -1,0 +1,14 @@
+{
+    "builds":[{
+        "srs":"helloworld/wsgi.py",
+        "use":"@vercel/python",
+        "config":{ "maxlambaSize" : "15mb" , "runtime" : "python3.9"}
+
+    }],
+    "routes" : [
+        {
+            "src" : "/(.*)",
+            "dest": "helloworld/wsgi.py"
+        }
+    ]
+}

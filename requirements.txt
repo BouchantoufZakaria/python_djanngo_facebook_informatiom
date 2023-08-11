@@ -1,0 +1,7 @@
+# requirements.txt file
+Django==2.2.3
+requests
+bs4
+re
+json
+
